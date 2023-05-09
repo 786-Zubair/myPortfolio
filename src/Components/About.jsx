@@ -13,8 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-7">
-         I'm doing Master Computer Science from Technical University of Berlin. I have done all of my
-         Course Work, but only Theses left to be done to complete my Master degree.
+         I'm doing Master degree in Computer Science from Technical University of Berlin. Currently, I'm working on thesis.
         </p>
 
         <br />

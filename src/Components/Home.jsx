@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import HeroImage from "../assets/myPicture.jpg";
+// import HeroImage from "../assets/myPicture.jpg";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -11,14 +11,14 @@ const Home = () => {
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+          <h2 className="text-2xl sm:text-4xl font-bold text-white">
+            I'm a Fullstack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I have experience building and desgining Web/Mobile Applications.
             Currently, I love to work on applications using different tools &
-            technologies but mostly with JavaScript, React, Tailwind, CSS3, HTML5,
-            Node JS, RestFul API's, SQL, MongoDB & Postgress.
+            technologies but mostly with HTML5, CSS3, Tailwind, JavaScript,
+            React, Node JS, RestFul API's, SQL, MongoDB & Postgress.
           </p>
           <div>
             <Link
@@ -35,11 +35,11 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img
+          {/* <img
             src={HeroImage}
             alt="my profile"
-            className="h-25 w-25 rounded-full"
-          />
+            className="h-12 w-19 rounded-full"
+          /> */}
         </div>
       </div>
     </div>
